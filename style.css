@@ -1,3 +1,7 @@
-h1 {
-    font-size: 6em;
-}
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,700;1,200;1,400&family=Inter:wght@200;300;400;600;700&family=Poppins:wght@200;400;700&display=swap');
+
+ :root{
+    --azul-banner: #3149A0;
+    --cor-destaque: #F85900;
+    --branco: #F0F4FF;
+ }
