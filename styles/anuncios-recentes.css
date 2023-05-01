@@ -1,16 +1,39 @@
+.anuncios-recentes {
+       margin: 2.5em;
+}
 
+.anuncio-texto {
+    margin-left: 1em;
+    color: var(--cinza-padrao);
+}
 .produtos {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 .produtos-item {
     display: flex;
+    margin: 1em;
+    gap: 10px;
     flex-direction: column;
     padding: 1em;
     background-color: #ffffff;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
+}
+
+.produto-nome {
+    font-family: 'Poppins', sans-serif;
+    color: var(--cinza-padrao);
+    font-weight: 00;
+}
+
+.produto-preco {
+    color: var(--dark-padrao);
+    font-size: 1.2em;
+}
+
+.classificacao {
+    width: 5em;
 }
 
 img{

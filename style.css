@@ -3,25 +3,23 @@
 @import url("styles/banner.css");
 @import url("styles/busca-categorias.css");
 @import url("styles/anuncios-recentes.css");
+@import url("styles/alugue-produto.css");
+@import url("styles/cards.css");
 
 
- :root{
-    --dark-padrao: #08074F;
-    --azul-banner: #3149A0;
-    --cor-destaque: #F85900;
-    --cinza-padrao: #3F3F3F;
-    --branco: #F0F4FF;
-    --fonte-padrao: 'Archivo', sans-serif;
- }
+:root {
+   --dark-padrao: #08074F;
+   --azul-banner: #3149A0;
+   --cor-destaque: #F85900;
+   --cinza-padrao: #3F3F3F;
+   --branco: #F0F4FF;
+   --fonte-padrao: 'Archivo', sans-serif;
+}
 
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
    font-family: var(--fonte-padrao);
-    background-color: var(--branco);
- }
-
-body {
-  
+   background-color: var(--branco);
 }

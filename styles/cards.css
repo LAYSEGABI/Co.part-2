@@ -1,0 +1,45 @@
+.cards {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3em;
+    height: 40vh;
+    gap: 20px;
+}
+
+.card-titulo {
+    color: var(--branco);
+    font-size: 2em;
+}
+
+.card-texto {
+    color: var(--branco);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.card-botao {
+    background-color: var(--cor-destaque);
+    text-decoration: none;
+    color: var(--branco);
+    padding: 1em;
+    text-align: center;
+    width: 10vw;
+    border-radius: 5px;
+    margin-top: 2em;
+}
+
+.seguro {
+    background: url(../img/back-seguranca.png);
+    background-size: cover;
+}
+
+.sobre-nos {
+    background: url(../img/back-sobre-nos.png);
+    background-size: cover;
+}
