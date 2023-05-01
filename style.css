@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,700;1,200;1,400&family=Inter:wght@200;300;400;600;700&family=Poppins:wght@200;400;700&display=swap');
 @import url("styles/header.css");
 @import url("styles/banner.css");
+@import url("styles/busca-categorias.css");
+@import url("styles/anuncios-recentes.css");
 
 
  :root{
+    --dark-padrao: #08074F;
     --azul-banner: #3149A0;
     --cor-destaque: #F85900;
     --cinza-padrao: #3F3F3F;
@@ -16,4 +19,9 @@
    padding: 0;
    box-sizing: border-box;
    font-family: var(--fonte-padrao);
+    background-color: var(--branco);
  }
+
+body {
+  
+}
