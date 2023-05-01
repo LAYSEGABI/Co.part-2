@@ -1,0 +1,33 @@
+
+.topicos-populares {
+    margin: 2.7em
+}
+
+.topicos-populares h5 {
+    color: var(--cinza-padrao);
+    margin-bottom: 1em;
+    margin-left: 2em;
+}
+
+.topicos-lista {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.topicos-lista li {
+    text-align: center;
+    width: 15vw;
+    padding: 1em;
+    border-radius: 5px;
+    border: solid 2px var(--azul-banner);
+    color: var(--azul-banner);
+    transition: 0.5s;
+}
+
+.topicos-lista li:hover {
+    background-color: var(--azul-banner);
+    color: var(--branco);
+}

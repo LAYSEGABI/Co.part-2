@@ -18,8 +18,8 @@
 }
 
 .alugue-botao {
-    background-color: var(--cor-destaque);
     color: var(--branco);
+    background-color: #bb4501;
     padding: 1em 2em;
     text-decoration: none;
     border-radius: 5px;
@@ -27,6 +27,6 @@
 }
 
 .alugue-botao:hover {
-    background-color: #bb4501;
+    background-color: var(--cor-destaque);
 }
 

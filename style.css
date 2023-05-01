@@ -5,6 +5,7 @@
 @import url("styles/anuncios-recentes.css");
 @import url("styles/alugue-produto.css");
 @import url("styles/cards.css");
+@import url("styles/topicos-populares.css");
 
 
 :root {
@@ -22,4 +23,13 @@
    box-sizing: border-box;
    font-family: var(--fonte-padrao);
    background-color: var(--branco);
+}
+
+footer p {
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   padding: 0.6em;
+   background-color: var(--azul-banner);
+   color: var(--branco);
 }
